@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall" : "(cd admin && npm install --ignore-scripts); (cd server && npm install --ignore-scripts); (cd client && npm install --ignore-scripts);",
+    "postinstall" : "(cd client && npm install --ignore-scripts);",
     "start": "(cd server && npm run start:prod);",
     "build": "(cd server && npm run build); (cd client && npm run build); (cd admin && npm run build);"
   },
